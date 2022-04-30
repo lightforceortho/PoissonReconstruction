@@ -87,6 +87,8 @@ int vtkPoissonReconstruction::RequestData(vtkInformation *vtkNotUsed(request),
   Point3D< float >      center;
   Real                  scale = 1.0;
   Real                  isoValue = 0;
+  // Reset to default value
+  TreeNodeData::UseIndex = 1;
   Octree< Degree >      tree;
   PPolynomial< Degree > reconstructionFunction = PPolynomial< Degree >::GaussianApproximation();
 

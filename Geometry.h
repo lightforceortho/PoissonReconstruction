@@ -34,6 +34,7 @@
 #ifndef GEOMETRY_INCLUDED
 #define GEOMETRY_INCLUDED
 #include <cmath>
+#include <cstdio>
 #include <vector>
 #include "Hash.h"
 
